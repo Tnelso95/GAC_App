@@ -139,7 +139,7 @@ st.title('Pitcher Analysis and Review')
 
 
 # Read and clean the pitching and hitting datasets
-pitching_df = clean_file('/Users/tomasnelson/Desktop/GAC_App/pages/CSV/pitching.csv')
+pitching_df = clean_file('pages/CSV/pitching.csv')
 
 if pitching_df is not None:
     pitching_df = clean_pitching_data(pitching_df)
