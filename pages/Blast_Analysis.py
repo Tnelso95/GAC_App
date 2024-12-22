@@ -103,7 +103,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Swing Metrics and Trajectory Calculator')
+st.title('Swing Metrics Calculator')
 
 # Sidebar for input sliders
 st.sidebar.header('Input Swing Metrics')
