@@ -87,7 +87,7 @@ st.title("LeaderBoards 📊")
 
 # Read and clean the pitching and hitting datasets
 pitching_df = clean_file('/Users/tomasnelson/Desktop/GAC_App/pages/CSV/pitching.csv')
-hitting_df = clean_file('/Users/tomasnelson/Desktop/GAC_App/pages/CSV/hitting.csv')
+hitting_df = clean_file('pages/CSV/hitting.csv')
 
 if hitting_df is not None and pitching_df is not None:
     hitting_df = clean_hitting_data(hitting_df)
