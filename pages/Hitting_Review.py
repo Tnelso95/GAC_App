@@ -91,7 +91,7 @@ st.title('Hitting Data Analysis and Review')
 
 
 # Read and clean the hitting dataset
-hitting_df = clean_file('/Users/tomasnelson/Desktop/GAC_App/pages/CSV/hitting.csv')
+hitting_df = clean_file('pages/CSV/hitting.csv')
 
 if hitting_df is not None:
     hitting_df = clean_hitting_data(hitting_df)
