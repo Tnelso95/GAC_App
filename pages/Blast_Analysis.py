@@ -33,7 +33,7 @@ def fetch_baseball_savant_data():
     
     # Define the parameters for the request
     params = {
-        "year": "2023",
+        "year": "2025",
         "type": "batter",
         "min": "25",  # Qualified batters
         "selections": "player_name,avg_swing_speed,attack_angle,avg_swing_length,vertical_swing_path",
