@@ -35,7 +35,7 @@ def fetch_baseball_savant_data():
     params = {
         "year": "2023",
         "type": "batter",
-        "min": "q",  # Qualified batters
+        "min": "25",  # Qualified batters
         "selections": "player_name,avg_swing_speed,attack_angle,avg_swing_length,vertical_swing_path",
         "sort": "xwoba",
         "sortDir": "desc",
