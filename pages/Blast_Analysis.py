@@ -88,7 +88,7 @@ with col1:
     attack_angle = st.number_input('Attack Angle (degrees)', min_value=-10.0, max_value=30.0, value=8.0, step=0.1)
     time_to_contact = st.number_input('Time to Contact (seconds)', min_value=0.1, max_value=0.2, value=0.15, step=0.001)
     vertical_bat_angle_input = st.number_input('Vertical Bat Angle (degrees)', min_value=-30.0, max_value=50.0, value=0.0, step=0.1)
-    vertical_bat_angle = abs(vertical_bat_angle_input
+    vertical_bat_angle = abs(vertical_bat_angle_input)
 
 # Calculate metrics
 swing_length = calc_swing_length(time_to_contact, bat_speed)
